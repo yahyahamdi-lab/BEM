@@ -9,7 +9,7 @@ class BetaEllipticBiLSTMModel:
     def __init__(self, input_shape, num_elliptic_params=5):
         """
         Initialize the Beta-Elliptic BiLSTM model
-        
+        # commentaire dans le projet
         Args:
             input_shape: Tuple of (timesteps, features)
             num_elliptic_params: Number of parameters for elliptic components (default 5)
